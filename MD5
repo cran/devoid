@@ -1,0 +1,10 @@
+5711fd1d5dfd731330ac5c566e0ea8c0 *DESCRIPTION
+928d886d4e8454f3db823a37d4de465f *LICENSE
+61f835c92bc23e5712ae2ceccc078c9a *NAMESPACE
+8ab705d0ca9cda8b91dce13b47b99ead *R/devoid-package.R
+a0b20a98c5fb777c1a5e4338a5e8757e *R/void_dev.R
+3013ecab10f3abc779214cbaeff8d207 *README.md
+9485ee14925a0428ff6680156495820f *man/devoid-package.Rd
+8d441222844519128f0692348640ecfc *man/figures/README-unnamed-chunk-2-1.png
+1eddefa3599495c1227280a272a7dd2a *man/void_dev.Rd
+582062d12b9014276d7e1ac49ffeb3e9 *src/void_dev.c
