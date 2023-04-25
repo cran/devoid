@@ -8,9 +8,9 @@
 
 void void_metric_info(int c, const pGEcontext gc, double* ascent,
                      double* descent, double* width, pDevDesc dd) {
-  *ascent = 0.0;
-  *descent = 0.0;
-  *width = 0.0;
+  *ascent = 1.0;
+  *descent = 1.0;
+  *width = 1.0;
 }
 
 void void_clip(double x0, double x1, double y0, double y1, pDevDesc dd) {
@@ -86,7 +86,7 @@ static SEXP void_setPattern(SEXP pattern, pDevDesc dd) {
     return R_NilValue;
 }
 
-static void void_releasePattern(SEXP ref, pDevDesc dd) {} 
+static void void_releasePattern(SEXP ref, pDevDesc dd) {}
 
 static SEXP void_setClipPath(SEXP path, SEXP ref, pDevDesc dd) {
     return R_NilValue;
@@ -100,7 +100,7 @@ static SEXP void_setMask(SEXP path, SEXP ref, pDevDesc dd) {
 
 static void void_releaseMask(SEXP ref, pDevDesc dd) {}
 
-pDevDesc void_device_new() {
+pDevDesc void_device_new(void) {
 
   pDevDesc dd = (DevDesc*) calloc(1, sizeof(DevDesc));
   if (dd == NULL)
@@ -179,7 +179,7 @@ pDevDesc void_device_new() {
   return dd;
 }
 
-void makeDevice() {
+void makeDevice(void) {
   R_GE_checkVersionOrDie(R_GE_version);
   R_CheckDeviceAvailable();
   BEGIN_SUSPEND_INTERRUPTS {
@@ -194,7 +194,7 @@ void makeDevice() {
   } END_SUSPEND_INTERRUPTS;
 }
 
-SEXP void_dev() {
+SEXP void_dev(void) {
 
   makeDevice();
 

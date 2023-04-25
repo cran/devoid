@@ -1,11 +1,11 @@
-1c04b4f654b6faefe7bbefc653d8e18d *DESCRIPTION
+f759da413b0ba8a94a75426e4615b27e *DESCRIPTION
 928d886d4e8454f3db823a37d4de465f *LICENSE
 61f835c92bc23e5712ae2ceccc078c9a *NAMESPACE
-2fc984404ed8a1b949308b06744afeaa *NEWS.md
+7abc51fc46a4965d4a2310cd36f97d0d *NEWS.md
 8ab705d0ca9cda8b91dce13b47b99ead *R/devoid-package.R
 a0b20a98c5fb777c1a5e4338a5e8757e *R/void_dev.R
-d306a6387e27dbc042f2c65999f0878c *README.md
+d81f47c3724fcfcbc9716dbd65cb7352 *README.md
 e546e7491e3c253aa17a5a554ddd5347 *man/devoid-package.Rd
-f895d4b6450e4fd70e01e973b020c85f *man/figures/README-unnamed-chunk-2-1.png
+8880af2f15d01a4f1a1be97b4e07654e *man/figures/README-unnamed-chunk-2-1.png
 1eddefa3599495c1227280a272a7dd2a *man/void_dev.Rd
-0688311310e8c0f26fedc7f43d129b8b *src/void_dev.c
+df115466954aa0d4766c686107ab75ea *src/void_dev.c
